@@ -2,7 +2,7 @@
 
 namespace Joseki\Application\Responses;
 
-use Mpdf\Mpdf;
+use mPDF;
 use Nette\Bridges\ApplicationLatte\Template;
 use Nette\FileNotFoundException;
 use Nette\Http\IRequest;
