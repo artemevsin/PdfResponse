@@ -2,6 +2,7 @@
 
 namespace Joseki\Application\Responses;
 
+use Mpdf\Mpdf;
 use Nette\Bridges\ApplicationLatte\Template;
 use Nette\FileNotFoundException;
 use Nette\Http\IRequest;
@@ -9,7 +10,6 @@ use Nette\Http\IResponse;
 use Nette\Templating\ITemplate;
 use Nette\Utils\Strings;
 use Nette;
-use mPDF;
 use Symfony\Component\DomCrawler\Crawler;
 
 /**
